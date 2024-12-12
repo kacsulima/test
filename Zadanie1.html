@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadanie1</title>
+  </head>
+  <body>
+    <script>
+      // Policz sume produktow
+      const products = [
+        {
+          name: "Chleb",
+          price: 4.99,
+        },
+        {
+          name: "Pomidory",
+          price: 9.99,
+        },
+        {
+          name: "Olowek",
+          price: 1.2,
+        },
+      ];
+
+      let suma = 0;
+
+      for (let product of products) {
+        suma += product.price;
+      }
+      console.log(suma);
+    </script>
+  </body>
+</html>
